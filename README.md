@@ -1,2 +1,15 @@
-# Inventory-Management-System-IMS-with-CSV-file-handling
-An inventory Management System that uses CSV to store data. 
+A beginner-friendly inventory management system in Python, with CSV file-handling.
+FEATURES:
+- View Inventory
+- Add Items
+- Remove Items
+- Update Item details
+
+Example csv format:
+
+items = [
+["items", "Quantity", "Price"],
+["Pen", 50, 10.5],
+["Notebook", 20, 45.0],
+["Eraser", 100, 5.25]
+]
