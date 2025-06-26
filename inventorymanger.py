@@ -55,7 +55,7 @@ def update_item():
     for row in current_items:
         if row[0].lower() == to_upd:
             found = True
-        if row[0] != to_upd or row[0] == "Item":
+        if row[0].lower() != to_upd or row[0].lower() == "item":
             new_items.append(row)
     if found:
         quantity = int(input("What's the updated quantity for this item? "))
