@@ -13,3 +13,7 @@ items = [
 ["Notebook", 20, 45.0],
 ["Eraser", 100, 5.25]
 ]
+
+I learned:
+1. how to manipulate, save, and update csv files.
+2. Create modular code.
